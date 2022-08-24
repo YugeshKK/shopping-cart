@@ -1,0 +1,35 @@
+ [ 
+    {
+        "id":1,
+        "name":"Book",
+        "price":10.99,
+        "imgUrl":"/img/book.jpg"
+    },
+
+    {
+        "id":2,
+        "name":"Computer",
+        "price":120.99,
+        "imgUrl":"/img/computer.jpg"
+    },
+
+    {
+        "id":3,
+        "name":"Car",
+        "price":80.99,
+        "imgUrl":"/img/car.jpg"
+    },
+    {
+        "id":4,
+        "name":"Banana",
+        "price":80.99,
+        "imgUrl":"/img/banana.jpg"
+    },
+    {
+        "id":5,
+        "name":"Sun Glass",
+        "price":20.99,
+        "imgUrl":"/img/sunglass.jpg"
+    }
+]
+
