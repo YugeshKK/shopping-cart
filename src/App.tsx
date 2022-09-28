@@ -6,7 +6,6 @@ import {Store}  from "./Pages/Store";
 import {Navbar} from "./Components/Navbar";    
 import { ShoppingCartProvider } from "./Context/ShoppingCartContext";
 
-
 function App() {
   return (
     <>

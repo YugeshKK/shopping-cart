@@ -1,8 +1,7 @@
 import {Container,Nav,Navbar as NavbarBs, Button} from 'react-bootstrap'
 import {NavLink} from 'react-router-dom';
 import { useShoppingCart } from '../Context/ShoppingCartContext';
-
-
+import logo from '../Components/logo.jpg'
 
 export function Navbar() {
 
@@ -10,8 +9,9 @@ export function Navbar() {
 
     return (  
       <>
-      <NavbarBs sticky='top' className=' shadow-sm mb-3'style={{backgroundColor:"#303134"}} >
+      <NavbarBs sticky='top' className=' shadow-sm mb-3'  style={{backgroundColor:"#303134"}} >
         <Container>
+            <img src={logo} width='70px' height='60px' style={{padding:'0 10px 0 0 ',borderRadius:"50%",cursor:"pointer"}}/>
             <Nav className='me-auto '>
                 <Nav.Link  className='text-white' to='/' as={NavLink}>
                     Store

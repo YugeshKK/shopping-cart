@@ -2,34 +2,40 @@
     {
         "id":1,
         "name":"Book",
-        "price":10.99,
+        "price":300,
         "imgUrl":"/img/book.jpg"
     },
 
     {
         "id":2,
         "name":"Computer",
-        "price":120.99,
+        "price":60000,
         "imgUrl":"/img/computer.jpg"
     },
 
     {
         "id":3,
-        "name":"Car",
-        "price":80.99,
-        "imgUrl":"/img/car.jpg"
+        "name":"Watch",
+        "price":4500,
+        "imgUrl":"/img/watch.jpg"
     },
     {
         "id":4,
         "name":"Banana",
-        "price":80.99,
+        "price":100,
         "imgUrl":"/img/banana.jpg"
     },
     {
         "id":5,
         "name":"Sun Glass",
-        "price":20.99,
+        "price":800,
         "imgUrl":"/img/sunglass.jpg"
+    },
+    {
+        "id":6,
+        "name":"Portugal Jersey",
+        "price":1500,
+        "imgUrl":"/img/portugal.jpg"
     }
 ]
 
