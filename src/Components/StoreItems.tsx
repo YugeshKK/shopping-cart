@@ -29,7 +29,7 @@ return(
     <Card>
         <Card.Img
          variant='top'
-         src={imgUrl}
+         src={process.env.PUBLIC_URL + imgUrl}
          height='200px'
          style={{objectFit:"cover"}}
         />
